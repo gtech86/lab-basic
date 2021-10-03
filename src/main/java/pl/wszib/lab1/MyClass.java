@@ -1,8 +1,9 @@
 package pl.wszib.lab1;
 
-import com.sun.security.jgss.GSSUtil;
+import pl.wszib.lab1.MyPackageCass.MyInterface;
+import pl.wszib.lab1.MyPackageCass.MyInterface2;
 
-public class MyClass {
+public class MyClass implements MyInterface, MyInterface2 {
 
     public static String staticName;
     protected static String staticName1;
@@ -22,7 +23,7 @@ public class MyClass {
         System.out.println("StaticName2: "+ staticName2);
         System.out.println("StaticName3: "+ staticName3);
     }
-
+    @Override
     public void print() {
         System.out.println("Nonstatic:");
         System.out.println("Name: "+ name);
