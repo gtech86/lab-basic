@@ -1,8 +1,5 @@
 package pl.wszib.lab1;
 
-import pl.wszib.lab1.MyPackageCass.MyInterface;
-import pl.wszib.lab1.MyPackageCass.MyInterface2;
-
 public class MyClass implements MyInterface, MyInterface2 {
 
     public static String staticName;

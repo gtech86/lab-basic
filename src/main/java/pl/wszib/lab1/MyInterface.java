@@ -1,4 +1,4 @@
-package pl.wszib.lab1.MyPackageCass;
+package pl.wszib.lab1;
 
 public interface MyInterface {
     void print();
